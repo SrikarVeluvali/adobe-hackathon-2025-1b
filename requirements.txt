@@ -1,0 +1,9 @@
+pdfplumber==0.10.0
+PyMuPDF==1.23.26
+pdfminer.six==20221105
+scikit-learn==1.3.2
+numpy==1.24.3
+nltk==3.8.1
+sentence-transformers==2.2.2
+jsonschema==4.20.0
+psutil==5.9.6
