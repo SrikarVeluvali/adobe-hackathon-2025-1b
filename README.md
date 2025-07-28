@@ -4,6 +4,7 @@
 
 This round challenges participants to go beyond traditional document analysis by **extracting relevant content from multiple PDFs** based on a given **persona** and their **job-to-be-done**. The task is to simulate intelligent reading tailored to the user’s intent—surfacing only the most useful document sections and insights.
 
+### By Team Mouse, Srikar Veluvali, Rishika Gudla, Aka Meher Archana
 
 ## Objective
 
@@ -71,3 +72,5 @@ Output includes:
 docker build --platform linux/amd64 -t persona-analyzer .
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none persona-analyzer
 ```
+
+
